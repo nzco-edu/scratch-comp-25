@@ -220,72 +220,118 @@
   </div>
 
   <!-- Header Section -->
-  <header class="header">
-    <!-- Header Text -->
-    <div class="header-text">
-      <h1 data-key="title">Children's Scratch Coding Contest</h1>
-      <p data-key="subtitle">Unleash your creativity and create your own story!</p>
-      <div id="countdown-timer" class="countdown-timer"></div>
-      <div class="header-buttons">
-        <a href="https://forms.gle/your-google-form-link" target="_blank" class="btn-custom" data-key="apply-button">Apply Now</a>
-        <a href="https://forms.gle/your-google-form-link" target="_blank" class="btn-custom" data-key="submit-button">Submit Work</a>
-      </div>
+<header class="header">
+  <!-- Main Header Text -->
+  <div class="header-text">
+    <h1 data-key="title">Welcome to the NZCO Children's Coding Competition! 🎉</h1>
+    <p>
+      <h2 data-key="subtitle">Are you ready to bring your creativity to life with MIT Scratch? 🎮🎵📖</h2>
+    </p>
+
+    <!-- Countdown Timer -->
+    <div id="countdown-timer" class="countdown-timer"></div>
+
+    <!-- Action Buttons -->
+    <div class="header-buttons">
+      <a href="https://forms.gle/nKcGPwXsWKn45QaX8" target="_blank" class="btn-custom" data-key="applyButton">Apply Now</a>
+      <a href="https://forms.gle/LSSx2eYBmCi53yAz5" target="_blank" class="btn-custom" data-key="submitButton">Submit Work</a>
     </div>
-  </header>
+  </div>
+</header>
+
 
   <!-- Introduction Section -->
-  <section class="section" data-aos="fade-right">
-    <h2 data-key="intro-title">Introduction</h2>
-    <p data-key="intro-text">The Children's Scratch Coding Contest is a competition where you create a creative story, game, or art based on a specific theme. Showcase your imagination and coding skills!</p>
-    <img src="img/scratch_cat.jpg" alt="Introduction">
+  <section class="section" data-aos="fade-right" style="position: relative; height: auto;">
+    <div style="background-image: url('img/scratch_cat.jpg'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; z-index: -1;"></div>
+    <h2 data-key="introTitle">Introduction</h2>
+    <p data-key="introText">
+      Welcome to NZCO's <strong>first-ever Children’s Coding Competition of 2025</strong>! 🌟 This is your chance to be part of a groundbreaking event where creativity meets technology. Using <strong>MIT Scratch</strong>, a super fun and beginner-friendly coding platform, you’ll create something extraordinary based on our exciting theme. Whether it’s a thrilling game, an inspiring story, a catchy music project, or something completely unique, the possibilities are endless! 🚀<br><br>
+      This competition isn’t just about coding—it’s about learning, growing, and having fun. No matter your skill level, from curious beginners to coding pros, everyone can join in and make unforgettable memories. Get ready to explore your potential, showcase your talents, and be part of an amazing experience that will inspire you for years to come! 🎮🎵📖
+    </p>
   </section>
+
+  <!-- How to Participate Section -->
+  <section class="section" data-aos="fade-up">
+    <h2 data-key="participateTitle">How to Participate</h2>
+    <ol>
+      <li data-key="participateStep1">
+        Click on the <a href='https://forms.gle/nKcGPwXsWKn45QaX8' target='_blank'><strong>Apply Now</strong></a> button to register as a participant. Once registered, you will receive a unique ID via the email you provided.
+      </li>
+      <li data-key="participateStep2">
+        Visit <a href="https://scratch.mit.edu/" target="_blank">https://scratch.mit.edu/</a>, log in, and create a project based on the given theme. When your project is complete, save it by clicking <strong>File &gt; Save to your computer</strong> from the project page. Ensure the file extension is <code>.sb3</code>.
+      </li>
+      <li data-key="participateStep3">
+        Click on the <a href='https://forms.gle/LSSx2eYBmCi53yAz5' target='_blank'><strong>Submit Work</strong></a> button to upload your saved <code>.sb3</code> project file along with a written report. Don’t forget to include your unique ID in the submission form.
+      </li>
+    </ol>
+  </section>
+
 
   <!-- Themes and Criteria Section -->
   <section class="section" data-aos="fade-left">
-    <h2 data-key="criteria-title">Themes and Evaluation Criteria</h2>
-    <p><strong data-key="topic-label">Theme:</strong> <span data-key="topic-content">Themes will be announced on the start date.</span></p>
-    <p><strong data-key="criteria-label">Evaluation Criteria:</strong></p>
+    <h2 data-key="criteriaTitle">Competition Theme and Evaluation Criteria</h2>
+
+    <!-- Theme Description -->
+    <p><strong data-key="themeLabel">Theme:</strong> <span data-key="theme-content">🤖 Artificial Intelligence (AI)</span></p>
+    <p>Your challenge is to create a Scratch project related to AI. It could be a game that teaches others about AI, a story that shows AI in action, or even a music project inspired by AI! 💡</p>
+
+    <!-- Evaluation Criteria -->
+    <p><strong data-key="criteriaLabel">Evaluation Criteria:</strong></p>
     <ul>
-      <li data-key="criteria-1">Creativity (40%)</li>
-      <li data-key="criteria-2">Code Quality and Structure (30%)</li>
-      <li data-key="criteria-3">Design Completeness (20%)</li>
-      <li data-key="criteria-4">User Experience (10%)</li>
+      <li data-key="criteria1">Completeness (30%): Is your project polished and finished?</li>
+      <li data-key="criteria2">Creativity (20%): How unique and innovative is your idea?</li>
+      <li data-key="criteria3">Report (20%): Does your report explain your project clearly and thoughtfully?</li>
+      <li data-key="criteria4">Code Efficiency (10%): Is your code clean and well-organized?</li>
+      <li data-key="criteria5">Code Reusability (10%): Can others easily build on your work?</li>
+      <li data-key="criteria6">UI/UX (10%): Is it user-friendly and visually appealing?</li>
+    </ul>
+
+    <p>The judges will review both your Scratch project file and a written report. Show us your best work! 🌟</p>
+  </section>
+
+
+  <!-- Rules and Guidelines Section -->
+  <section class="section" data-aos="fade-right">
+    <h2 data-key="rulesTitle">Important Rules and Guidelines</h2>
+
+    <!-- Rules List -->
+    <ul>
+      <li data-key="rule1"><strong>Original Work:</strong> Your project must be your own creation. If you remix someone else’s project, provide a link to the original and clearly explain in your report what you improved or changed.</li>
+      <li data-key="rule2"><strong>Final Submission:</strong> Only your last submission before the deadline will be evaluated. Make sure it includes your final project and report.</li>
+      <li data-key="rule3"><strong>Evaluation Period:</strong> It may take around 3 weeks for the judges to review all submissions, but this may extend depending on the number of participants.</li>
+      <li data-key="rule4"><strong>Language of Communication:</strong> All questions and answers will be in English. If you have any inquiries, please email us at <a href="mailto:info@nzco.org">info@nzco.org</a>.</li>
+      <li data-key="rule5"><strong>Age Restriction:</strong> Participants must be within the age range specified in the competition guidelines. Proof of age may be required.</li>
+      <li data-key="rule6"><strong>Individual Participation Only:</strong> This is a solo competition. Each participant must work independently on their project.</li>
+      <li data-key="rule7"><strong>Project File Format:</strong> Submissions must be in the Scratch (.sb3) file format. Ensure your file is properly named and uploaded correctly.</li>
+      <li data-key="rule8"><strong>Plagiarism Policy:</strong> Any form of plagiarism will lead to immediate disqualification. Always give credit where it’s due.</li>
+      <li data-key="rule9"><strong>Proof of New Zealand Residency:</strong> Participants must provide proof that they are students residing in New Zealand. This can include a student ID or other official documentation.</li>
+      <li data-key="rule10"><strong>Fair Play Policy:</strong> If any form of unfair practice or copying of another project is discovered after submission, any awards or recognitions will be revoked.</li>
     </ul>
   </section>
 
-  <!-- Rules Section -->
-  <section class="section rules" data-aos="zoom-in">
-    <h2 data-key="rules-title">Rules and Examples</h2>
-    <p data-key="rules-1">1. Participants must use Scratch to create their works.</p>
-    <p data-key="rules-2">2. Works must creatively adhere to the competition theme.</p>
-    <p data-key="rules-3">3. Submitted works must not copy others' creations.</p>
-    <p data-key="rules-4">4. Teams can have up to 3 members.</p>
-    <img src="img/kenny-eliason-zFSo6bnZJTw-unsplash.jpg" alt="Rules">
-  </section>
 
   <!-- Schedule Section -->
   <section class="section" data-aos="fade-up">
-    <h2 data-key="schedule-title">Competition Schedule</h2>
-    <p><strong data-key="start-label">Start Date:</strong> <span data-key="start-date">January 15, 2024</span></p>
-    <p><strong data-key="end-label">End Date:</strong> <span data-key="end-date">February 15, 2024</span></p>
+    <h2 data-key="scheduleTitle">Competition Timeline</h2>
+    <p><strong data-key="startLabel">📅 Start Date:</strong> <span data-key="startDate">January 11, 2025</span></p>
+    <p><strong data-key="endLabel">📅 End Date</strong> <span data-key="endDate">February 28, 2025</span></p>
+    <p>Don’t wait—start dreaming up your AI-inspired project today! 🚀</p>
     <img src="img/deadline.jpg" alt="Schedule">
   </section>
 
   <!-- Participation Section -->
   <section class="participation-section" data-aos="flip-left">
-    <h2 data-key="participate-title">Participate Now</h2>
-    <a href="https://forms.gle/your-google-form-link" target="_blank" class="btn btn-custom" data-key="apply-button">Apply Now</a>
-    <a href="https://forms.gle/your-google-form-link" target="_blank" class="btn btn-custom" data-key="submit-button">Submit Work</a>
+    <h2 data-key="join-title">Participate Now</h2>
+    <a href="https://forms.gle/nKcGPwXsWKn45QaX8" target="_blank" class="btn btn-custom" data-key="applyButton">Apply Now</a>
+    <a href="https://forms.gle/LSSx2eYBmCi53yAz5" target="_blank" class="btn btn-custom" data-key="submitButton">Submit Work</a>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p data-key="footer-title">Organized by:</p>
-    <p><strong>Kids Code Club</strong></p>
-    <p data-key="footer-contact">Contact us at: <a href="mailto:info@kidscodeclub.org">info@kidscodeclub.org</a></p>
-    <p>Phone: +1 (555) 123-4567</p>
-    <p data-key="footer-address">Address: 123 Coding Lane, Silicon Valley, CA</p>
-    <p>© 2024 Kids Code Club</p>
+    <p data-key="footerTitle">Organized by:</p>
+    <p><strong>New Zealand Coding Organization</strong></p>
+    <p data-key="footerContact">Contact us at: <a href="mailto:info@kidscodeclub.org">info@nzco.org</a></p>
+    <p>© 2025 NZCO</p>
   </footer>
 
   <!-- JavaScript -->
@@ -295,7 +341,7 @@
 
     // Countdown Timer Script
     const countdownTimer = document.getElementById('countdown-timer');
-    const endDate = new Date('2025-02-15T23:59:59').getTime();
+    const endDate = new Date('2025-02-28T23:59:59').getTime();
 
     function updateCountdown() {
       const now = new Date().getTime();
@@ -315,5 +361,153 @@
 
     setInterval(updateCountdown, 1000);
   </script>
+  <script>
+    const translations = {
+  en: {
+    title: "Welcome to the NZCO Children's Coding Competition! 🎉",
+    subtitle: "Are you ready to bring your creativity to life with MIT Scratch? 🎮🎵📖",
+    applyButton: "Apply Now",
+    submitButton: "Submit Work",
+    introTitle: "Introduction",
+    introText: "Welcome to NZCO's <strong>first-ever Children’s Coding Competition of 2025</strong>! 🌟 This is your chance to be part of a groundbreaking event where creativity meets technology. Using <strong>MIT Scratch</strong>, a super fun and beginner-friendly coding platform, you’ll create something extraordinary based on our exciting theme. Whether it’s a thrilling game, an inspiring story, a catchy music project, or something completely unique, the possibilities are endless! 🚀<br><br>This competition isn’t just about coding—it’s about learning, growing, and having fun. No matter your skill level, from curious beginners to coding pros, everyone can join in and make unforgettable memories. Get ready to explore your potential, showcase your talents, and be part of an amazing experience that will inspire you for years to come! 🎮🎵📖",
+    participateTitle: "How to Participate",
+    participateStep1: "Click on the <a href='https://forms.gle/nKcGPwXsWKn45QaX8' target='_blank'><strong>Apply Now</strong></a> button to register as a participant. Once registered, you will receive a unique ID via the email you provided.",
+    participateStep2: "Visit <a href='https://scratch.mit.edu/' target='_blank'>https://scratch.mit.edu/</a>, log in, and create a project based on the given theme. When your project is complete, save it by clicking <strong>File &gt; Save to your computer</strong> from the project page. Ensure the file extension is <code>.sb3</code>.",
+    participateStep3: "Click on the <a href='https://forms.gle/LSSx2eYBmCi53yAz5' target='_blank'><strong>Submit Work</strong></a> button to upload your saved <code>.sb3</code> project file along with a written report. Don’t forget to include your unique ID in the submission form.",
+    criteriaTitle: "Competition Theme and Evaluation Criteria",
+    themeLabel: "Theme:",
+    themeContent: "🤖 Artificial Intelligence (AI)",
+    criteriaLabel: "Evaluation Criteria:",
+    criteria1: "Completeness (30%): Is your project polished and finished?",
+    criteria2: "Creativity (20%): How unique and innovative is your idea?",
+    criteria3: "Report (20%): Does your report explain your project clearly and thoughtfully?",
+    criteria4: "Code Efficiency (10%): Is your code clean and well-organized?",
+    criteria5: "Code Reusability (10%): Can others easily build on your work?",
+    criteria6: "UI/UX (10%): Is it user-friendly and visually appealing?",
+    rulesTitle: "Important Rules and Guidelines",
+    rule1: "<strong>Original Work:</strong> Your project must be your own creation. If you remix someone else’s project, provide a link to the original and clearly explain in your report what you improved or changed.",
+    rule2: "<strong>Final Submission:</strong> Only your last submission before the deadline will be evaluated. Make sure it includes your final project and report.",
+    rule3: "<strong>Evaluation Period:</strong> It may take around 3 weeks for the judges to review all submissions, but this may extend depending on the number of participants.",
+    rule4: "<strong>Language of Communication:</strong> All questions and answers will be in English. If you have any inquiries, please email us at <a href='mailto:info@nzco.org'>info@nzco.org</a>.",
+    rule5: "<strong>Age Restriction:</strong> Participants must be within the age range specified in the competition guidelines. Proof of age may be required.",
+    rule6: "<strong>Individual Participation Only:</strong> This is a solo competition. Each participant must work independently on their project.",
+    rule7: "<strong>Project File Format:</strong> Submissions must be in the Scratch (.sb3) file format. Ensure your file is properly named and uploaded correctly.",
+    rule8: "<strong>Plagiarism Policy:</strong> Any form of plagiarism will lead to immediate disqualification. Always give credit where it’s due.",
+    rule9: "<strong>Proof of New Zealand Residency:</strong> Participants must provide proof that they are students residing in New Zealand. This can include a student ID or other official documentation.",
+    rule10: "<strong>Fair Play Policy:</strong> If any form of unfair practice or copying of another project is discovered after submission, any awards or recognitions will be revoked.",
+    scheduleTitle: "Competition Timeline",
+    startLabel: "📅 Start Date:",
+    startDate: "January 11, 2025",
+    endLabel: "📅 End Date:",
+    endDate: "February 28, 2025",
+    footerTitle: "Organized by:",
+    footerContact: "Contact us at:",
+    joinTitle: "Participate Now",
+    applyButton: "Apply Now",
+    submitButton: "Submit Work",
+  },
+  ko: {
+    title: "NZCO 어린이 코딩 대회에 오신 것을 환영합니다! 🎉",
+    subtitle: "MIT 스크래치로 창의력을 발휘할 준비가 되었나요? 🎮🎵📖",
+    applyButton: "지금 신청",
+    submitButton: "작품 제출",
+    introTitle: "소개",
+    introText: "NZCO의 <strong>2025년 첫 어린이 코딩 대회</strong>에 오신 것을 환영합니다! 🌟 이 대회는 창의성과 기술이 만나는 혁신적인 행사에 참여할 기회입니다. <strong>MIT Scratch</strong>라는 재미있고 초보자 친화적인 코딩 플랫폼을 사용하여 흥미로운 주제를 바탕으로 특별한 프로젝트를 만들어 보세요. 짜릿한 게임, 영감을 주는 이야기, 멋진 음악 프로젝트, 또는 완전히 독창적인 무엇이든 가능합니다! 🚀<br><br>이 대회는 단순한 코딩 대회가 아닙니다. 배우고 성장하며 즐거운 경험을 만드는 자리입니다. 호기심 많은 초보자부터 코딩 전문가까지 누구나 참여하여 잊지 못할 추억을 만들어 보세요. 여러분의 잠재력을 탐구하고 재능을 선보이며, 수년간 영감을 줄 멋진 경험의 일부가 될 준비를 하세요! 🎮🎵📖",
+    participateTitle: "참여 방법",
+    participateStep1: "<a href='https://forms.gle/nKcGPwXsWKn45QaX8' target='_blank'><strong>지금 신청</strong></a> 버튼을 클릭하여 참가자로 등록하세요. 등록이 완료되면 제공한 이메일로 고유 ID를 받게 됩니다.",
+    participateStep2: "<a href='https://scratch.mit.edu/' target='_blank'>https://scratch.mit.edu/</a>를 방문하여 로그인한 후 주어진 주제를 기반으로 프로젝트를 만드세요. 프로젝트가 완료되면 프로젝트 페이지에서 <strong>파일 &gt; 컴퓨터에 저장</strong>을 클릭하여 저장하세요. 파일 확장자는 <code>.sb3</code>이어야 합니다.",
+    participateStep3: "<a href='https://forms.gle/LSSx2eYBmCi53yAz5' target='_blank'><strong>작품 제출</strong></a> 버튼을 클릭하여 저장한 <code>.sb3</code> 프로젝트 파일과 작성한 보고서를 업로드하세요. 제출 양식에 고유 ID를 반드시 포함하세요.",
+    criteriaTitle: "대회 주제 및 평가 기준",
+    themeLabel: "주제:",
+    themeContent: "🤖 인공지능 (AI)",
+    criteriaLabel: "평가 기준:",
+    criteria1: "완성도 (30%): 프로젝트가 잘 마무리되고 완성되었나요?",
+    criteria2: "창의성 (20%): 아이디어가 얼마나 독창적이고 혁신적인가요?",
+    criteria3: "보고서 (20%): 프로젝트를 명확하고 신중하게 설명했나요?",
+    criteria4: "코드 효율성 (10%): 코드가 깨끗하고 체계적인가요?",
+    criteria5: "코드 재사용성 (10%): 다른 사람이 쉽게 프로젝트를 확장할 수 있나요?",
+    criteria6: "UI/UX (10%): 사용자 친화적이고 시각적으로 매력적인가요?",
+    rulesTitle: "중요 규칙 및 가이드라인",
+    rule1: "<strong>원작:</strong> 프로젝트는 본인의 창작물이어야 합니다. 다른 사람의 프로젝트를 리믹스한 경우 원본 링크를 제공하고 보고서에 무엇을 개선하거나 변경했는지 명확히 설명하세요.",
+    rule2: "<strong>최종 제출:</strong> 마감일 이전의 마지막 제출물만 평가됩니다. 최종 프로젝트와 보고서를 반드시 포함하세요.",
+    rule3: "<strong>평가 기간:</strong> 심사위원이 모든 제출물을 검토하는 데 약 3주가 소요될 수 있으며, 참가자 수에 따라 연장될 수 있습니다.",
+    rule4: "<strong>소통 언어:</strong> 모든 질문과 답변은 영어로 진행됩니다. 문의사항이 있으면 <a href='mailto:info@nzco.org'>info@nzco.org</a>로 이메일을 보내주세요.",
+    rule5: "<strong>연령 제한:</strong> 참가자는 대회 가이드라인에 명시된 연령 범위 내에 있어야 합니다. 연령 증빙이 필요할 수 있습니다.",
+    rule6: "<strong>개인 참여만 가능:</strong> 이 대회는 개인 대회입니다. 각 참가자는 자신의 프로젝트를 독립적으로 작업해야 합니다.",
+    rule7: "<strong>프로젝트 파일 형식:</strong> 제출물은 Scratch (.sb3) 파일 형식이어야 합니다. 파일 이름을 올바르게 지정하고 올바르게 업로드했는지 확인하세요.",
+    rule8: "<strong>표절 정책:</strong> 모든 형태의 표절은 즉각적인 실격으로 이어집니다. 공로는 항상 올바르게 인정하세요.",
+    rule9: "<strong>뉴질랜드 거주 증명:</strong> 참가자는 뉴질랜드에 거주하는 학생임을 증명해야 합니다. 학생증 또는 기타 공식 문서를 포함할 수 있습니다.",
+    rule10: "<strong>공정성 정책:</strong> 제출 후 프로젝트의 부정 행위나 다른 프로젝트 복제가 발견되면 모든 상과 인정을 취소합니다.",
+    scheduleTitle: "대회 일정",
+    startLabel: "📅 시작 날짜:",
+    startDate: "2025년 1월 11일",
+    endLabel: "📅 종료 날짜:",
+    endDate: "2025년 2월 28일",
+    footerTitle: "주최:",
+    footerContact: "문의처:",
+    joinTitle: "지금 참여",
+    applyButton: "지금 신청",
+    submitButton: "작품 제출",
+  },
+  zh: {
+    title: "欢迎来到 NZCO 儿童编程比赛！ 🎉",
+    subtitle: "准备好通过 MIT Scratch 将您的创意变为现实了吗？ 🎮🎵📖",
+    applyButton: "立即申请",
+    submitButton: "提交作品",
+    introTitle: "介绍",
+    introText: "欢迎参加 NZCO 的 <strong>2025 年首届儿童编程比赛</strong>！ 🌟 这是一个结合创意与技术的开创性活动的机会。使用 <strong>MIT Scratch</strong>，一个有趣且适合初学者的编程平台，根据我们的激动人心的主题创造一些非凡的东西吧。无论是令人兴奋的游戏、鼓舞人心的故事、引人入胜的音乐项目，还是完全独特的作品，可能性是无限的！ 🚀<br><br>这不仅仅是一次编程比赛——它是关于学习、成长和乐趣的体验。无论您的技能水平如何，从好奇的初学者到编程专家，每个人都可以参与并留下难忘的回忆。准备好探索您的潜力，展示您的才能，成为一个激励您未来多年的精彩体验的一部分吧！ 🎮🎵📖",
+    participateTitle: "如何参与",
+    participateStep1: "点击 <a href='https://forms.gle/nKcGPwXsWKn45QaX8' target='_blank'><strong>立即申请</strong></a> 按钮注册为参赛者。注册完成后，您将通过提供的电子邮件收到唯一的 ID。",
+    participateStep2: "访问 <a href='https://scratch.mit.edu/' target='_blank'>https://scratch.mit.edu/</a>，登录并根据给定主题创建项目。完成项目后，通过项目页面点击 <strong>文件 &gt; 保存到您的计算机</strong> 保存项目。确保文件扩展名为 <code>.sb3</code>。",
+    participateStep3: "点击 <a href='https://forms.gle/LSSx2eYBmCi53yAz5' target='_blank'><strong>提交作品</strong></a> 按钮上传您保存的 <code>.sb3</code> 项目文件以及书面报告。请务必在提交表单中包含您的唯一 ID。",
+    criteriaTitle: "比赛主题和评估标准",
+    themeLabel: "主题:",
+    themeContent: "🤖 人工智能 (AI)",
+    criteriaLabel: "评估标准:",
+    criteria1: "完成度 (30%): 您的项目是否完善和完成？",
+    criteria2: "创意性 (20%): 您的创意有多独特和创新？",
+    criteria3: "报告 (20%): 您的报告是否清晰、周到地解释了您的项目？",
+    criteria4: "代码效率 (10%): 您的代码是否干净且结构良好？",
+    criteria5: "代码可重用性 (10%): 其他人是否可以轻松地基于您的工作进行构建？",
+    criteria6: "UI/UX (10%): 是否用户友好且视觉吸引力强？",
+    rulesTitle: "重要规则和指南",
+    rule1: "<strong>原创作品:</strong> 您的项目必须是您自己的创作。如果您改编了他人的项目，请提供原始链接，并在报告中清楚说明您改进或更改的内容。",
+    rule2: "<strong>最终提交:</strong> 只有您在截止日期前的最后一次提交将被评估。确保包括您的最终项目和报告。",
+    rule3: "<strong>评估期:</strong> 评委审核所有提交可能需要约 3 周的时间，但这可能会根据参与者的数量而延长。",
+    rule4: "<strong>交流语言:</strong> 所有问题和答案将以英语进行。如果您有任何疑问，请发送电子邮件至 <a href='mailto:info@nzco.org'>info@nzco.org</a>。",
+    rule5: "<strong>年龄限制:</strong> 参赛者必须符合比赛指南中规定的年龄范围。可能需要提供年龄证明。",
+    rule6: "<strong>仅限个人参与:</strong> 这是一个个人比赛。每位参赛者必须独立完成自己的项目。",
+    rule7: "<strong>项目文件格式:</strong> 提交的文件必须为 Scratch (.sb3) 格式。确保文件命名正确并正确上传。",
+    rule8: "<strong>剽窃政策:</strong> 任何形式的剽窃将导致立即取消资格。始终给予应有的信用。",
+    rule9: "<strong>新西兰居住证明:</strong> 参赛者必须提供证明他们是居住在新西兰的学生。这可以包括学生证或其他官方文件。",
+    rule10: "<strong>公平竞赛政策:</strong> 如果在提交后发现任何形式的不公平行为或复制他人项目，任何奖项或认可将被撤销。",
+    scheduleTitle: "比赛时间表",
+    startLabel: "📅 开始日期:",
+    startDate: "2025 年 1 月 11 日",
+    endLabel: "📅 截止日期:",
+    endDate: "2025 年 2 月 28 日",
+    footerTitle: "主办方:",
+    footerContact: "联系我们:",
+    joinTitle: "立即参与",
+    applyButton: "立即申请",
+    submitButton: "提交作品",
+  }
+};
+
+
+  
+    document.getElementById('language').addEventListener('change', function (e) {
+      const selectedLang = e.target.value;
+      const elements = document.querySelectorAll("[data-key]");
+  
+      elements.forEach((el) => {
+        const key = el.getAttribute("data-key");
+        if (translations[selectedLang] && translations[selectedLang][key]) {
+          el.innerHTML = translations[selectedLang][key];
+        }
+      });
+    });
+  </script>
+  
 </body>
 </html>
